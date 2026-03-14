@@ -8,37 +8,73 @@
 
 <body>
 
-    <h1>Himi & Tapu | Get Puzzeled in memories <3 </h1>
+    <h1>Himi & Tapu | Get Puzzeled in memories ❤️ </h1>
 
-            <div id="menu">
-                <button onclick="showImages()">Start</button>
-            </div>
+    <div id="menu">
+        <button onclick="showImages()">Start</button>
+    </div>
 
-            <div id="images">
-                <h2>Select Image</h2>
+    <div id="images">
+        <h2>Select Image</h2>
 
-                <img src="img1.jpg" onclick="startGame('img1.jpg')">
-                <img src="img2.jpg" onclick="startGame('img2.jpg')">
-                <img src="img3.jpg" onclick="startGame('img3.jpg')">
-                <img src="img4.jpg" onclick="startGame('img4.jpg')">
-                <img src="img5.jpg" onclick="startGame('img5.jpg')">
-                <img src="img6.jpg" onclick="startGame('img6.jpg')">
+        <img src="img1.jpg" onclick="startGame('img1.jpg')">
+        <img src="img2.jpg" onclick="startGame('img2.jpg')">
+        <img src="img3.jpg" onclick="startGame('img3.jpg')">
+        <img src="img4.jpg" onclick="startGame('img4.jpg')">
+        <img src="img5.jpg" onclick="startGame('img5.jpg')">
+        <img src="img6.jpg" onclick="startGame('img6.jpg')">
+        <img src="img7.jpg" onclick="startGame('img7.jpg')">
+        <img src="img8.jpg" onclick="startGame('img8.jpg')">
+        <img src="img9.jpg" onclick="startGame('img9.jpg')">
+        <img src="img10.jpg" onclick="startGame('img10.jpg')">
+        <img src="img11.jpg" onclick="startGame('img11.jpg')">
+        <img src="img12.jpg" onclick="startGame('img12.jpg')">
+        <img src="img13.jpg" onclick="startGame('img13.jpg')">
+        <img src="img14.jpg" onclick="startGame('img14.jpg')">
+        <img src="img15.jpg" onclick="startGame('img15.jpg')">
+        <img src="img16.jpg" onclick="startGame('img16.jpg')">
 
-                <br><br>
-                <button onclick="backMenu()">Back</button>
 
-            </div>
 
-            <div id="game">
 
-                <div id="board"></div>
 
-                <br>
-                <button onclick="exitGame()">Exit</button>
+        <br><br>
+        <button onclick="backMenu()">Back</button>
 
-            </div>
+    </div>
 
-            <script src="script.js"></script>
+    <div id="sizeSelect">
+
+        <h2>Select Puzzle Size</h2>
+
+        <button onclick="startPuzzle(4)">4 x 4</button>
+
+        <button onclick="startPuzzle(5)">5 x 5</button>
+
+        <button onclick="startPuzzle(6)">6 x 6</button>
+
+        <br><br>
+        <button onclick="backMenu()" class="backBtn">⬅ Back</button>
+
+    </div>
+
+
+
+    <div id="game">
+
+        <div id="board"></div>
+
+        <br>
+        <button onclick="exitGame()">Exit</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
 
 </body>
 
